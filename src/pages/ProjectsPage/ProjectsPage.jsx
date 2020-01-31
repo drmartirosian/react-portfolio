@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import userService from '../../utils/userService';
 
-class HomePage extends Component {
+class ProjectsPage extends Component {
     constructor() {
         super();
         this.state = { user: userService.getUser() };
@@ -11,10 +11,10 @@ class HomePage extends Component {
     render() {
         return (
         <div>
-            <h1>HOME</h1>
+            <h1>PROJECTS</h1>
         </div>
         );
     }
 }
 
-export default HomePage;
+export default ProjectsPage;
