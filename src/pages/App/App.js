@@ -4,6 +4,7 @@ import SignupPage from '../SignupPage/SignupPage';
 import LoginPage from '../LoginPage/LoginPage';
 import userService from '../../utils/userService';
 import NavBar from '../../components/NavBar/NavBar';
+import Footer from '../../components/Footer/Footer';
 import HomePage from '../HomePage/HomePage';
 import AboutPage from '../AboutPage/AboutPage';
 import ProjectsPage from '../ProjectsPage/ProjectsPage';
@@ -29,7 +30,7 @@ class App extends Component {
   render() {
 
     return (
-      <div>
+      <div className="App" >
         <NavBar user={this.state.user} handleLogout={this.handleLogout} />
         <Switch>
 
@@ -46,6 +47,8 @@ class App extends Component {
 
 
         </Switch>
+        <Footer />
+
       </div>
     );
   }

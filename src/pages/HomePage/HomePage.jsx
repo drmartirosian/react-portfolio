@@ -12,6 +12,7 @@ class HomePage extends Component {
         return (
         <div>
             <h1>HOME</h1>
+            <h3 >Welcome back, {this.state.user.name}!</h3>
         </div>
         );
     }
