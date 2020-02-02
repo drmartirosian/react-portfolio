@@ -18,7 +18,7 @@ const NavBar = (props) => {
       <Link to='/resume' className='NavBar-link' >Resume</Link>
       <Link to='/projects' className='NavBar-link' >Projects</Link>
       <Link to='/login' className='NavBar-link'>Login</Link>
-      <Link to='/signup' className='NavBar-link'>Signup</Link>
+      {/* <Link to='/signup' className='NavBar-link'>Signup</Link> */}
     </div>;
 
   return (

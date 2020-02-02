@@ -32,23 +32,17 @@ class App extends Component {
     return (
       <div className="App" >
         <NavBar user={this.state.user} handleLogout={this.handleLogout} />
+
         <Switch>
-
-
-          <Route exact path='/' render={() => <HomePage /> }/>
+          <Route exact path='/' render={() => <HomePage user={this.state.user}/> }/>
           <Route exact path='/about' render={() => <AboutPage /> }/>
           <Route exact path='/projects' render={() => <ProjectsPage /> }/>
           <Route exact path='/resume' render={() => <ResumePage /> }/>
-
-
           <Route exact path='/signup' render={({ history }) => <SignupPage history={history} handleSignupOrLogin={this.handleSignupOrLogin} /> }/>
           <Route exact path='/login' render={({ history }) => <LoginPage history={history} handleSignupOrLogin={this.handleSignupOrLogin} /> }/>
-
-
-
         </Switch>
-        <Footer />
 
+        <Footer />
       </div>
     );
   }

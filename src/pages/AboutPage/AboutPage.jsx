@@ -14,7 +14,7 @@ class AboutPage extends Component {
             <h1>ABOUT</h1>
             <h3>Welcome!</h3>
             <p>
-                Family from Armenia, born in Germany, raised in America, educated in worldwide, I can see the world from many perspectives. This carried with me as I initially embarked on the path of medical school, and, after much consideration, chose instead the fronteir of software coding. While unique fields unto themselves, medicine and coding had one comment interest for me: taking smaller structures and building them into larger/complex systems. From functions to classes, front-end to back-end, JavaScript to Python, software engineering is where it's at.
+                Family from Armenia, born in Germany, raised in America, educated worldwide, I can see the world from many perspectives. This carried with me as I initially embarked on the path of medical school, and, after much consideration, chose instead the fronteir of software coding. While unique fields unto themselves, medicine and coding had one comment interest for me: taking smaller structures and building them into larger/complex systems. From functions to classes, front-end to back-end, JavaScript to Python, software engineering is where it's at.
             </p>
         </div>
         );

@@ -3,3 +3,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 } */
+body{
+    background-image: url('https://i.imgur.com/NqnXSPQ.jpg');
+}
