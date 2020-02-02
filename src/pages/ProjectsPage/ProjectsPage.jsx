@@ -21,7 +21,7 @@ class ProjectsPage extends Component {
                         <th scope="col">Link</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody> 
                     {/* <tr className="table-info">
                         <th scope="row">BLANK</th>
                         <td>BLANK</td>
